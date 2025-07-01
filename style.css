@@ -1,0 +1,119 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fef9f4;
+  font-family: 'Poppins', sans-serif;
+  color: #3b2e2e;
+  line-height: 1.6;
+  padding: 30px 15px;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5b3a29;
+  letter-spacing: 1px;
+}
+
+/* Container (Login) */
+.container {
+  background-color: #fff3e6;
+  padding: 35px 30px;
+  border-radius: 20px;
+  max-width: 420px;
+  margin: 40px auto;
+  box-shadow: 0 12px 30px rgba(145, 112, 91, 0.15);
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #e3cdb5;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+button {
+  background-color: #8b5e3c;
+  color: #fffaf4;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #a86b44;
+  transform: translateY(-2px);
+}
+
+/* Product Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 25px;
+  padding: 25px;
+}
+
+/* Product Card */
+.card {
+  background-color: #fffefb;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 6px 18px rgba(100, 70, 50, 0.1);
+  transition: transform 0.2s ease;
+  border: 1px solid #f1e4d6;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #3f2d23;
+}
+
+.card button {
+  background-color: #d96c27;
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.card button:hover {
+  background-color: #e07b3a;
+}
+
+/* Cart */
+#cart {
+  max-width: 700px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
